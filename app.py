@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "API funcionando en Render, Railway y Docker para despliegue en docker"
+    return "API funcionando en Render, Railway, Docker y Azure para despliegue en docker"
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5000))
